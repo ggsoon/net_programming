@@ -1,0 +1,15 @@
+{
+    "firstname" : "Gura",
+    "lastname" : "Kim",
+    "hobbies" : ["Youtube", "Soccer", "Python"],
+    "children": [
+        {
+            "firstname": "Donghyen",
+            "age": "15"
+        },
+        {
+            "firstname": "Minge",
+            "age": "10"
+        }
+    ]
+}
