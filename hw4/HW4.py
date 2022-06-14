@@ -1,4 +1,5 @@
 import mimetypes
+import numpy as np
 from socket import *
 
 s = socket()
@@ -9,20 +10,11 @@ while True:
     c, addr = s.accept()
     data = c.recv(1024)
     msg = data.decode()
-    req = msg.split('\r\n')
-    filename = req[0].split(" ")
-    filename = filename[1]
-    filename = filename[1:]
+    Temp, Humid, lilum = 0
     
-    if filename == "index.html":
-        f = open(filename, 'r', encoding='utf-8')
-        mimetypes = 'text/html'
-    elif filename == "iot.png":
-        f = open(filename, 'rb')
-        mimetypes = 'image/png'
-    elif filename == "favicon.ico":
-        f = open(filename, 'rb')
-        mimetypes = 'image/x-icon'
+    if msg == "1":
+        np.random.randint(41)
+       
     else:
         c.send('HTTP/1.1 404 Not Found\r\n'.encode())
         c.send('\r\n'.encode())
