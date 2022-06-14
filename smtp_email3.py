@@ -5,7 +5,7 @@ SMTP_PORT = 587
 
 sender = 'ninanooo@gmail.com'
 recipient = 'daeheekim@sch.ac.kr'
-password = '앱 비밀번호'
+password = 'adckidufwhiqrqla'
 
 msg = EmailMessage()
 msg['Subject'] = "HTML 메시지 전송"
@@ -18,11 +18,9 @@ msg.add_alternative('''\ # multipart/alternative 객체를 만들어 본문에 �
     <head></head>
     <body>
     <p>안녕하세요.</p>
-    <p>순천향대학교 김대희입니다.</p>
-    <p>아래 사이트 확인 부탁 드립니다.</p>
     <p>
-            <a href=https://home.sch.ac.kr/iot/>
-            순천향대학교 사물인터넷학과
+            <a href=https://naver.com/>
+            링크 설명
         </a>
     </p>
     <p>감사합니다.</p>
