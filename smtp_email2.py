@@ -6,9 +6,9 @@ SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 
 sender = 'ninanooo@gmail.com'
-recipient = 'daeheekim@sch.ac.kr'
-password = '앱 비밀번호'
-family = ['daeheekim@sch.ac.kr', 'ninanooo@gmail.com', 'ninanooo@naver.com']
+recipient = 'dusvlf12ro@sch.ac.kr'
+password = 'adckidufwhiqrqla'
+family = ['dusvlf12ro@sch.ac.kr', 'ninanooo@gmail.com', 'ninanooo@naver.com']
 
 msg = EmailMessage()
 msg['Subject'] = '우리 가족 사진'

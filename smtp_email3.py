@@ -4,13 +4,13 @@ SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 
 sender = 'ninanooo@gmail.com'
-recipient = 'daeheekim@sch.ac.kr'
+recipient = 'dusvlf12ro@sch.ac.kr'
 password = 'adckidufwhiqrqla'
 
 msg = EmailMessage()
 msg['Subject'] = "HTML 메시지 전송"
 msg['From'] = sender
-msg['To'] = ('daeheekim@sch.ac.kr', 'ninanooo@gmail.com')
+msg['To'] = ('dusvlf12ro@sch.ac.kr', 'ninanooo@gmail.com')
 # HTML 메시지 작성하기
 content_id = 'my_image1' # 이미지 등의 컨텐츠를 연결하기 위한 id
 msg.add_alternative('''\ # multipart/alternative 객체를 만들어 본문에 추가함
