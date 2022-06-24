@@ -7,7 +7,7 @@ SMTP_PORT = 587
 
 # 송신자, 수신자, 비밀번호
 sender = 'ninanooo@gmail.com'
-recipient = 'dusvlf12ro@gmail.com'
+recipient = 'dusvlf12ro@sch.ac.kr'
 password = 'adckidufwhiqrqla'
 
 # 메시지 생성하기
