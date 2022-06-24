@@ -12,10 +12,10 @@ password = 'adckidufwhiqrqla'
 
 # 메시지 생성하기
 msg = EmailMessage()
-msg['Subject'] = '이메일 테스트'
+msg['Subject'] = '제목'
 msg['From'] = sender
 msg['To'] = recipient
-text = '네트워크 프로그래밍 e-mail test 중'
+text = '내용'
 msg.set_content(text)
 
 # SMTP 객체 생성 후, 메시지 전송
